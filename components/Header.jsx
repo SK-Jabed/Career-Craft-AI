@@ -11,7 +11,7 @@ const Header = () => {
 
       <Link href="/">
           <Image
-            src={"/logo.png"}
+            src={"/career-craft-logo.png"}
             alt="CareerCraft Logo"
             width={200}
             height={60}
