@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
+      {/* <h2>Career Craft Client Side</h2> */}
       {/* <Button>Click me</Button> */}
       {/* <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
