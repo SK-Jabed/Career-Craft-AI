@@ -3,7 +3,6 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/Header";
 import { ClerkProvider } from "@clerk/nextjs";
-import Navbar from "@/components/Navbar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,7 +26,6 @@ export default function RootLayout({ children }) {
           >
             {/* Header */}
             <Header />
-            {/* <Navbar /> */}
             {/* Main Content */}
             <main className="min-h-screen">{children}</main>
             {/* Footer */}
