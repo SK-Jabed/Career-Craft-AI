@@ -36,8 +36,18 @@ const Header = () => {
             height={60}
             className="h-12 py-1 w-auto object-contain"
           /> */}
-          <span>CareerCraft AI</span>
+          <span>CareerCraft.ai</span>
         </Link>
+
+            {/* <div>
+              <ul className="flex items-center gap-8">
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+              </ul>
+            </div> */}
 
         <div className="flex items-center space-x-2 md:space-x-4">
           <SignedIn>
@@ -72,7 +82,7 @@ const Header = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link
-                    href="/ai-cover-letter"
+                    href="/cover-letter"
                     className="flex items-center gap-2"
                   >
                     <PenBox className="h-4 w-4" />
@@ -93,7 +103,7 @@ const Header = () => {
               <Button variant="outline">Sign In</Button>
             </SignInButton>
             <SignUpButton>
-              <Button variant="outline">Sign Up</Button>
+              <Button variant="secondary">Sign Up</Button>
             </SignUpButton>
           </SignedOut>
           <SignedIn>
