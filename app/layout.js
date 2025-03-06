@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
             <main className="min-h-screen">{children}</main>
             {/* Footer */}
             <footer className="bg-muted/50 py-12">
-              <div className="container mx-auto px-4 text-center text-gray-200">
+              <div className="container mx-auto px-6 text-center text-gray-200">
                 <p>Created By Sheikh Jabed</p>
               </div>
             </footer>
