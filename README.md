@@ -1,4 +1,4 @@
-# CareerCraft AI - User Interface
+# CareerCraft AI
 
 ## Getting Started
 
