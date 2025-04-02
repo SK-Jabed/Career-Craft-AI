@@ -4,6 +4,6 @@ import { inngest } from "@/lib/inngest/client";
 export const { GET, POST, PUT } = serve({
   client: inngest,
   functions: [
-    // All Functions Will be Here
+    // All Functions Will Appear Here
   ],
 });
