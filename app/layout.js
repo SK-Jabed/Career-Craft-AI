@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "CareerCraft AI",
-  description: "This is CareerCraft AI Project",
+  description: "This is CareerCraft AI (An AI Based Career Guidance Web Application)",
 };
 
 export default function RootLayout({ children }) {
