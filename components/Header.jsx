@@ -39,6 +39,8 @@ const Header = () => {
           <span>CareerCraft.ai</span>
         </Link>
 
+
+
         {/* <div>
               <ul className="flex items-center gap-8">
                 <li>Home</li>
